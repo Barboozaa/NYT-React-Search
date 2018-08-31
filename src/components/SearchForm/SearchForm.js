@@ -12,7 +12,7 @@ const SearchForm = (props) => {
         <CardBody>
             <Form>
                 <FormGroup>
-                    <Label for="topic" className="form-label">Topic (for example, sports)</Label>
+                    <Label for="topic" className="form-label">Search Terms</Label>
                     <Input
                         value={props.query}
                         onChange={props.handleTopicChange}
